@@ -1,0 +1,18 @@
+header, .notprint {
+    display: none;
+}
+
+dcthtmlbreak {
+    break-after: page;
+}
+
+#editor {
+    display: inline;
+    height: initial;
+}
+
+#document {
+    overflow: visible;
+    height: initial;
+    border: none;
+}

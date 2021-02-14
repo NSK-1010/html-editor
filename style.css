@@ -1,0 +1,36 @@
+html, body {
+    font-family: "Google Sans", "Noto Sans JP", sans-serif;
+    width: 95%;
+    margin: auto;
+}
+
+code, kbd, samp, textarea {
+    font-family: "Roboto Mono", "Noto Sans JP", monospace;
+    background-color: #dddddd;
+}
+
+#editor {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1em;
+    height: 30em;
+}
+
+#document {
+    overflow: auto;
+    overflow-wrap: anywhere;
+    height: 30em;
+    border: 1px solid #dddddd;
+}
+
+#sourcecode {
+    resize: none;
+    white-space: pre;
+    overflow: auto;
+    background-color: #eeeeee;
+}
+
+#sourcecode:focus {
+    border: 2px solid #a0d8ef;
+    outline: none;
+}
